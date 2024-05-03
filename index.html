@@ -5,6 +5,46 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+	<style>
+		.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		/* margin: auto; */
+		}
+
+		.mySlides {
+		display: none;
+		text-align: center;
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+		color: white;
+		background-color: black;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		}
+
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		background-color: rgba(0,0,0,0.8);
+		}
+
+	</style>
 	<head>
 		<title>Suwapat Portfolio</title>
 		<meta charset="utf-8" />
@@ -18,7 +58,7 @@
 			<header id="header">
 				<div class="inner">
 					<p style="text-align:center;"><a href="images/suwapat.jpg" class="image avatar"><img src="images/suwapat.jpg" /></a></p>
-					<h3><p style="text-align:left;">My name is <strong>Suwapat Pongtana </strong>, i am an developer from computer sciene field that want to be a part flims/vfx/animation industry.</p></h3>
+					<h3><p style="text-align:center;">My name is <strong>Suwapat Pongtana </strong>, i am python developer who has passionate in vfx/films/animation industries .</p></h3>
 				</div>
 			</header>
 
@@ -34,9 +74,18 @@
 					<section id="reel">
 						<header class="major"><h2>Resume</h2></header>
 						<ul class="actions">
-							<li><a href="https://bit.ly/3IFK7KS" class="button"> pipeline </a></li> 
-							<li><a href="https://bit.ly/3TmpWGS" class="button"> technical director </a></li>
-							<li><a href="https://bit.ly/3x0EoNa" class="button"> pipelineTD </a></li>
+							<li>
+								<a href="https://drive.google.com/file/d/14uZYBkVE83p77fyFZuwxB4tiV8iEYCc_/view?usp=sharing" class="button"> Software Developer</a>
+							</li>
+							<li>
+								<a href="https://drive.google.com/file/d/1pGdGfuPbnLXtWiwWNZnvRz4kWy2FSdts/view?usp=sharing" class="button"> pipeline </a>
+							</li> 
+							<li>
+								<a href="https://drive.google.com/file/d/1lWiekvxXLBAf-da8HtIqqPfyTe-pS1iZ/view?usp=sharing" class="button"> technical director </a>
+							</li>
+							<li>
+								<a href="https://drive.google.com/file/d/1iqhPg28dtyEBUN-sJr8x8s8XWEysJeyR/view?usp=sharing" class="button"> pipelineTDs </a>
+							</li>
 						</ul>
 					</section>
 				<!-- Two -->
@@ -63,37 +112,47 @@
 						</div>
 					</section>
 				
-				<!-- Three -->
+					<!-- Three -->
 					<section id="tool">
 						<h1>Developed Tools </h1>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
+						<div class="slideshow-container">
+							
+							<div class="mySlides fade">
 								<h2>Task Manager-Kasetfairverse2024</h2>
-								<a href = "images\tools\task_manager.png" class="image fit thumb"><img src="images\tools\task_manager.png" alt=""  /></a>
-								<h4>shotgrid implemented tool ,that show all user assigned task.</h4>
-							</article>
+								<img src="images\tools\task_manager.png" style="width:70%">
+								<div class="numbertext">1 / 4</div>
+								<div class="text">shotgrid implemented tool ,that show all user assigned task.</div>
+							</div>
 
-							<article class="col-6 col-12-xsmall work-item">
+							<div class="mySlides fade">
 								<h2>Asset Submitter-Kasetfairverse2024</h2>
-								<a href = "images\tools\task_submitter.png" class="image fit thumb"><img src="images\tools\task_submitter.png" alt=""  /></a>
-								<h4>shotgrid implemented tool ,that use for submit asset to review.</h4>
-							</article>
+								<img src="images\tools\task_submitter.png" style="width:50%">
+								<div class="numbertext">2 / 4</div>
+								<div class="text">shotgrid implemented tool ,that use for submit asset to review.</div>
+							</div>
 
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>File Grabber-Kasetfairverse2024 </h2>
-								<a href = "images\tools\file_grabber.png" class="image fit thumb"><img src="images\tools\file_grabber.png" alt=""   /></a>
-								<h4>tool for get file(s) from main server to user computer.</h4>
-							</article>
+							<div class="mySlides fade">
+								<h2>File Grabber-Kasetfairverse2024</h2>
+								<img src="images\tools\file_grabber.png" style="width:70%">
+								<div class="numbertext">3 / 4</div>
+								<div class="text">tool for get file(s) from main server to user computer.</div>
+							</div>
 
-							<article class="col-6 col-12-xsmall work-item">
+							<div class="mySlides fade">
 								<h2>File Placer-Kasetfairverse2024</h2>
-								<a href = "images\tools\file_placer.png" class="image fit thumb"><img src="images\tools\file_placer.png" alt=""  /></a>
-								<h4>tool for move file from user computer to main server.</h4>
-							</article>
+								<img src="images\tools\file_placer.png" style="width:70%">
+								<div class="numbertext">4 / 4</div>
+								<div class="text">tool for move file from user computer to main server.</div>
+							</div>
+						
+							<a class="prev" onclick="plusSlides(-1)" >&#10094;</a>
+  							<a class="next" onclick="plusSlides(1)" >&#10095;</a>
 						</div>
+						
 					</section>
 
 			</div>
+
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -102,6 +161,7 @@
 					<h4><p style="text-align:left;"><i class="fa fa-envelope"> </i>  pongsuwapat@gmail.com </h4></p>
 					<h4><p style="text-align:left;"><i class="fa fa-phone"></i> +66 92-278-5291 </h4></p>
 					<h4><p style="text-align:left;"><i class="fa fa-map-marker"></i> Room 411 ,212 Ratchadaphisek 42 Alley, Chan Kasem, Chatuchak, Bangkok 10900, Thailand </h4></p>
+
 					<ul class="copyright"><li>Design: <a href="http://html5up.net">HTML5 UP</a></li></ul>
 				</div>
 			</footer>
@@ -113,6 +173,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/slide.js"></script>
 
 	</body>
 </html>
